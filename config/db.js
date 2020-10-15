@@ -6,7 +6,8 @@ const db = config.get('mongoURL');
 const connectDatabase = async () => {
     try {
         await mongoose.connect(db, {
-            useUnifiedTopology: true
+            useUnifiedTopology: true,
+            useCreateIndex: true
         });
         console.log("MongoDB connection ready - started server on http://localhost:3000");
     } catch (error) {
