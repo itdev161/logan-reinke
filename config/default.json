@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://logz_11:ZcXPKARZTlLUogXA@cluster0.czr0b.mongodb.net/test?retryWrites=true&w=majority",
+    "mongoURL": "mongodb+srv://logz_11:ZcXPKARZTlLUogXA@cluster0.czr0b.mongodb.net/test?retryWrites=true&w=majority",
     "jwtSecret": "letsgetthisbread"
 }
